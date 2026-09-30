@@ -25,4 +25,28 @@ btnsInfo.forEach( btn => {
 })
 
 /*=============== GSAP ANIMATION ===============*/
+gsap.from('.card__profile', {
+    y: -200, 
+    stagger: 0.2, 
+    opacity: 0, 
+    ease: 'back.out(1.6)', 
+    duration: 1.5,
+})
 
+gsap.from('.card__chat', {
+    y: 50, 
+    stagger: 0.2, 
+    opacity: 0, 
+    ease: 'back.out(1.6)', 
+    duration: 1,
+    delay: 0.8,
+})
+
+gsap.from('.card__info', {
+    y: 50, 
+    stagger: 0.2, 
+    opacity: 0, 
+    ease: 'back.out(1.6)', 
+    duration: 1,
+    delay: 1,
+})
