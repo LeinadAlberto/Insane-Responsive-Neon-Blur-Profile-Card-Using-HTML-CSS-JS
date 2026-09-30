@@ -220,15 +220,20 @@ img {
 	transform: translateY(-0.5rem)
 }
 
-
 /* Show chat */
-
+.show-chat {
+	transform: rotate3d(1, 1, 1, 0deg);
+}
 
 /* Show info */
-
+.show-info {
+	transform: rotate3d(1, 1, 1, 0deg);
+}
 
 /* Rotate info icon */
-
+.info-icon-rotate {
+	rotate: -135deg;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices <> */
